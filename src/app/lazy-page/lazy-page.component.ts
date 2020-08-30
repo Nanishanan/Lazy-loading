@@ -23,7 +23,6 @@ export class LazyPageComponent implements OnInit {
 
     const config = { rootMargin: '0px 0px -50% 0px' };
     let observer = new IntersectionObserver((entries)=>{
-      // console.log(entries[0].isIntersecting);
       if (entries[0].intersectionRatio != 0){
         this.scrolled = false;
         this.scrolled1 = true;
@@ -34,23 +33,10 @@ export class LazyPageComponent implements OnInit {
       }
     },config);
 
-    // let observer1 = new IntersectionObserver((entries)=>{
-    //   // console.log(entries[0].isIntersecting);
-    //   if (entries[0].intersectionRatio != 0){
-    //     this.scrolled1 = false;
-    //   }
-    //   else{
-    //     this.scrolled1 = true;
-    //   }
-    // },config);
-
     this.sections.forEach(section =>{
       observer.observe(section);
     })
 
-    // this.sections1.forEach(section1 => {
-    //   observer1.observe(section1);
-    // })
   }
 
   hidden(){
