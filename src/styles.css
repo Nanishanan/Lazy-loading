@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@font-face{
+    font-family: supermercodo;
+    src: url(C:\Users\NareshM\Documents\CSS\Supermercodo\SupermercadoOne-Regular.ttf);
+}
+@font-face{
+    font-family: caveat;
+    src: url(C:\Users\NareshM\Documents\CSS\Caveat\Caveat-Regular.ttf);
+}
+@font-face{
+    font-family: batman;
+    src: url(C:\Users\NareshM\Documents\CSS\Batman\Batman.ttf);
+}
+@font-face{
+    font-family: rancho;
+    src: url(C:\Users\NareshM\Documents\CSS\Rancho\Rancho.ttf);
+}
+@font-face{
+    font-family: raleway;
+    src: url(C:\Users\NareshM\Documents\CSS\Raleway\Raleway.ttf);
+}
+@font-face{
+    font-family: satisfy;
+    src: url(C:\Users\NareshM\Documents\CSS\Satisfy\Satisfy.ttf);
+}

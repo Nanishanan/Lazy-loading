@@ -1,0 +1,238 @@
+.master-div-css{
+    background-attachment: fixed;
+    background-image: url(src\assets\jl.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.screen{
+    position: relative;
+    color: blanchedalmond;
+}
+.screen1{
+    position: relative;
+    color: blanchedalmond;
+}
+.screen2{
+    position: relative;
+}
+
+#first-screen{
+    height: 80vh;
+}
+#second-screen{
+    min-height: 80vh;
+}
+#third-screen{
+    color: blanchedalmond;
+    min-height: 100vh;
+}
+
+/* SuperMan CSS */
+.mat-css-sup{
+    padding: 10%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 65%;
+    background-color: rgb(151, 13, 13);
+}
+
+.sm-logo-css{
+    width: 30%;
+    position: absolute;
+    left: 40%;
+    top: -25%;
+    animation: fade-in-right 3s;
+}
+
+.image-css{
+    padding-left: 20%;
+    width: 100%;
+    height: 100%; 
+    animation: fade-in-left 3s;
+}
+
+.img1-css{
+    display: flex;
+}
+
+.para-css{
+    position: absolute;
+    top: 20%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    animation: fade-in-top 3s;
+    font-family: supermercodo;
+}
+
+.brief-css{
+    padding-top: 10%;
+    font-family: Caveat;
+    font-size: 200%;
+    color: white;
+    -webkit-text-stroke-color: blue;
+    -webkit-text-stroke-width: 0.5px;
+}
+/* Superman CSS End */
+
+/* Batman CSS */
+.mat-css-bat{
+    padding: 10%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 90%;
+    background-color: rgb(48, 46, 46);
+    animation: mat-bat 4s;
+}
+
+.bm-image-css{   
+    position: absolute;
+    width: 65%;
+    left: 20%;
+    top: 10%;
+    animation: bat-man 3s;
+}
+
+.bat-logo-css{
+    top: -25%;
+    position: absolute;
+    width: 45%;
+    left: 33%;
+}
+
+.para-css-bat{
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    animation: para-bat 3s;
+    font-family: batman;
+    color: yellow;
+}
+
+.brief-bat{
+    font-family: rancho;
+    padding-top: 20%;
+    font-size: 250%;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.5px;
+}
+/* Batman CSS End */
+
+/* Wonder Woman CSS */
+.mat-css-ww{
+    top: 100%;
+    position: absolute;
+    background-color: darkgoldenrod;
+    bottom: 20%;
+    padding: 9%;
+    left: 0%;
+    right: 0%;
+    animation: mat-ww 3s;
+}
+
+.ww-image-css{   
+    width: 67%;
+    top: 755%;
+    position: absolute;
+    left: 10%;
+    animation: won-wan 3s;
+}
+
+.ww-logo-css{
+    transform: translate(262.1px, -161px);
+    width: 50%;
+}
+
+.para-css-ww{
+    transform: translate(23px, 2005%);
+    font-family: raleway;
+    font-size: 262%;
+    font-weight: bold;
+    color: rgb(196, 175, 61);
+    animation: para-ww 3s;
+}
+
+.brief-ww{
+    position: absolute;
+    top: 840%;
+    font-family: satisfy;
+    font-size: 30px;
+    line-height: 33px;
+    color: gold;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.3px;
+}
+/* Wonder Woman CSS End */
+
+/* Animations */
+@keyframes fade-in-left{
+    from {padding-left: 0px;}
+    to {padding-left: 20%;}
+}
+@keyframes fade-in-right{
+    from {width: 30%;
+          position: absolute;
+          left: 90%;
+          top: -25%;}
+    to {width: 30%;
+        position: absolute;
+        left: 40%;
+        top: -25%;}
+}
+@keyframes fade-in-top{
+    from {    top: 0%;
+            left: 0%;}
+    to {    top: 20%;
+            left: 29%;}
+}
+
+@keyframes bat-man{
+    from { padding-left: 20%; }
+    to{ padding-left: 0%; }
+}
+@keyframes mat-bat{
+    from { right: 80% }
+    to { right: 0%; }
+}
+@keyframes para-bat {
+    from {
+        top: 50%;
+        left: 50%;
+    }
+    to {
+        top: 80%;
+        left: 80%;
+    }
+}
+
+@keyframes para-ww {
+    from { transform: translate(3px, 1575%); }
+    to { transform: translate(23px, 2005%); }
+}
+@keyframes won-wan {
+    from {
+        width: 67%;
+        top: 1055%;
+    }
+    to {
+        width: 67%;
+        top: 755%;
+    }
+}
+@keyframes mat-ww{
+    from { left: 80% }
+    to { left: 0%; }
+}
+/* Animations End */
+
+.last-div{
+    height: 50vh;
+}
